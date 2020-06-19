@@ -1,0 +1,96 @@
+*{
+    font-weight: bold;
+    color: white;
+   
+}
+body{
+    background-color: rgb(49, 47, 47);
+}
+h1{
+    text-align: center;
+}
+/*NAV BAR*/
+.container{
+    display: flex;  
+    
+}
+nav{
+    flex: 1;
+    display: flex;
+    background-color: rgb(241, 134, 72);
+    color: white;
+    
+
+}
+.innercontainer{
+    flex: 1;
+    font-size: 19px;
+    padding: 15px 0px;
+}
+   
+.innercontainer a{
+    color: white;
+    text-decoration: none;
+    padding: 0px 10px;
+}
+.innercontainer a:active{
+    background-color: white;
+    color: rgb(241, 134, 72);
+    font-size: 20px;
+}
+
+
+/*DRINKS MENU*/
+
+
+.bigmeal{
+    background-image: url(bigmeals.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 18px;
+    line-height: 30px;
+    display: flex;
+}
+.mealtable{
+    margin: auto;
+}
+#mealtable, td{
+    border: 1px solid white;
+    border-collapse: collapse;
+    width: 600px;
+    text-align: center;
+    font-size: 20px;
+    padding: 4px;
+    background-color: rgb(49, 47, 47);
+}
+#order{
+    border: 1px solid rgb(241, 134, 72);;
+    background-color: rgb(241, 134, 72);
+    font-size: 15px;
+    border-radius: 5px;
+}
+/*DRINKS BACK GROUND IMAGE*/
+.drinks{
+    background-image: url(drinks.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/*FOOTER*/
+.footer{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    display: flex;
+    background-color: rgb(241, 134, 72);
+    padding: 5px 0px;
+}
+.innerfooter{
+    margin: auto;
+}
